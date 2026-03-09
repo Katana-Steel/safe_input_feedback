@@ -1,0 +1,14 @@
+[package]
+name = "safe_input_feedback"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "A proof of concept that you could have input feedback on a console prompt without flagging the length of that input"
+authors = ["Rene Kjellerup"]
+
+[lib]
+crate-type = ["rlib", "staticlib"]
+
+[dependencies]
+crossterm = "0.28"
+rand = "0.9"
